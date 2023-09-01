@@ -282,4 +282,509 @@ Changes to be committed:
 [?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git commit -m "firt[Kst commit"
 [?2004lAuthor identity unknown
 
-*** Please 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <keshavgarg@TIGER01532.tigeranalytics.local>) not allowed
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.email "you@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"k"e"s"h"a"v"."g"a"g"[1P"r"g"@"t"i"g"e"r"a"n"a"l"y"t"i"c"s"."c"o"m"
+[?2004l[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.email "keshav.garg@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pmmit -m "first commit"status[K
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   assignment-1-1/draft_renamed2.txt[m
+	[32mnew file:   assignment-1-1/my_git_session[m
+	[32mnew file:   assignment-1-1/my_unix_session[m
+	[32mnew file:   assignment-1-1/test_mkdir_command/draft_renamed2.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   assignment-1-1/my_git_session[m
+
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git statusconfig --global user.email "keshav.garg@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pmmit -m "first commit"status[K[1Padd .
+[?2004l[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git add .statusconfig --global user.email "keshav.garg@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   assignment-1-1/draft_renamed2.txt[m
+	[32mnew file:   assignment-1-1/my_git_session[m
+	[32mnew file:   assignment-1-1/my_unix_session[m
+	[32mnew file:   assignment-1-1/test_mkdir_command/draft_renamed2.txt[m
+
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git status[1Padd .statusconfig --global user.email "keshav.garg@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pmmit -m "first commit"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <keshav.garg@tigeranalytics.com>) not allowed
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git commit -m "first commit"status[K[1Padd .statusconfig --global user.email "keshav.garg@tigeranalytics.com"
+[?2004l[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.name "Your Name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"K"e"s"h"a"v" "G"a"r"g"
+[?2004l[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.name "Keshav Garg"email "keshav.garg@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pmmit -m "first commit"status[K[1Padd .statuscommit -m "first commit"
+[?2004l[main c6a257e] first commit
+ 4 files changed, 489 insertions(+)
+ create mode 100644 assignment-1-1/draft_renamed2.txt
+ create mode 100644 assignment-1-1/my_git_session
+ create mode 100644 assignment-1-1/my_unix_session
+ create mode 100644 assignment-1-1/test_mkdir_command/draft_renamed2.txt
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git push
+[?2004lEnumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 8.03 KiB | 8.03 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:keshav-garg-tiger/TAMLEP-Assignment-1.git
+   a8d1bdf..c6a257e  main -> main
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git status -s
+[?2004l [31mM[m assignment-1-1/my_git_session
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ cat .git
+.git/       .gitignore  
+]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ cat .gitignore [K
+[?2004l# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git diff
+[?2004l[?1h=[1mdiff --git a/assignment-1-1/my_git_session b/assignment-1-1/my_git_session[m[m
+[1mindex 42e9f3c..e8b222f 100644[m[m
+[1m--- a/assignment-1-1/my_git_session[m[m
+[1m+++ b/assignment-1-1/my_git_session[m[m
+[36m@@ -282,4 +282,173 @@[m [mChanges to be committed:[m[m
+ eshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git commit -m "first commit"[m[m
+ [7m^M[27mAuthor identity unknown[m[m
+ [m[m
+[31m-*** Please [m[m
+\ No newline at end of file[m[m
+[32m+[m[32m*** Please tell me who you are.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mRun[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32m  git config --global user.email "you@example.com"[m[41m[7m^M[27m[m[m
+[32m+[m[32m  git config --global user.name "Your Name"[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mto set your account's default identity.[m[41m[7m^M[27m[m[m
+[32m+[m[32mOmit --global to set the identity only in this repository.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mfatal: empty ident name (for <keshavgarg@TIGER01532.tigeranalytics.local>) not allowed[m[41m[7m^M[27m[m[m
+[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.email "you@example.co"[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^[27m[m [32m[m[32m[01;32m[00m[01;34m[00m""""""[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^H[27mkeshav.ga"[7m^H[27mrg@tigeranalytics.com[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.email "keshav.garg@tigeranalytics.com"[7m^M[27mmmit -m "f[m [32m[m[32m[01;32m[00m[01;34m[00m[7m^H^H^H^H^H^H^H^H^H^H^H^H[27mstatus[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore --staged <file>..." to unstage)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   assignment-1-1/draft_renamed2.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   assignment-1-1/my_git_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   assignment-1-1/my_unix_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   assignment-1-1/test_mkdir_command/draft_renamed2.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   assignment-1-1/my_git_session[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.email "keshav.garg@tigeranalytics.com"[7m^M[27mmmit -m "fir[m [32m[m[32m[01;32m[00m[01;34m[00m[7m^H^H^H^H^H^H^H^H^H^H^H^H^H^H[27madd .[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.email "keshav.garg@tigeranalytics.com"[7m^M[27mstatus[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27mOn branch main[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  (use "git restore --staged <file>..." to unstage)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m       [32m[32mnew file:   assignment-1-1/draft_renamed2.txt[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m       [32m[32mnew file:   assignment-1-1/my_git_session[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m       [32m[32mnew file:   assignment-1-1/my_unix_session[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m       [32m[32mnew file:   assignment-1-1/test_mkdir_command/draft_renamed2.txt[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git a[7m^H[27mconfig --global user.email "keshav.garg@tigeranalytics.com"[7m^M[27mmmit -m "f[m :[K[K[32m[m[32m[01;32m[00m[01;34m[00mairst commit"[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27mAuthor identity unknown[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*** Please tell me who you are.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mRun[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  git config --global user.email "you@example.com"[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  git config --global user.name "Your Name"[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mto set your account's default identity.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mOmit --global to set the identity only in this repository.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mfatal: empty ident name (for <keshav.garg@tigeranalytics.com>) not allowed[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git a[7m^H[27mconfig --global user.email "keshav.garg@tigeranalytics.com"[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.name "Your Nam"[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^H^H^H[27m"[7m^H[27mKeshav Gar[m :[K[K[32m[m[32m[01;32m[00m[01;34m[00m"""""g[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git config --global user.email "keshav.garg@tigeranalytics.com"[7m^M[27mmmit -m "f[m :[K[K[32m[m[32m[01;32m[00m[01;34m[00m[7m^H^H^H^H^H^H^H^H^H^H^H^H[27ms[7m^H[27ma[7m^H[27mcommit -m "first commit"[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27m[main c6a257e] first commit[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m 4 files changed, 489 insertions(+)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m create mode 100644 assignment-1-1/draft_renamed2.txt[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m create mode 100644 assignment-1-1/my_git_session[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m create mode 100644 assignment-1-1/my_unix_session[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m create mode 100644 assignment-1-1/test_mkdir_command/draft_renamed2.txt[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git push[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27mEnumerating objects: 8, done.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mCounting objects:  12% (1/8)[7m^M[27mCounting objects:  25% (2/8)[7m^M[27mCounting objects:  37% (3/8)[7m^M[27mCounting objects:  50% (4/8)[7m^M[27mCounting objects:  62% (5/8)[7m^M[27mCounting objects:[m :[K[K[32m[m[32m  75% (6/8)[7m^M[27mCounting objects:  87% (7/8)[7m^M[27mCounting objects: 100% (8/8)[7m^M[27mCounting objects: 100% (8/8), done.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mDelta compression using up to 8 threads[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mCompressing objects:  20% (1/5)[7m^M[27mCompressing objects:  40% (2/5)[7m^M[27mCompressing objects:  60% (3/5)[7m^M[27mCompressing objects:  80% (4/5)[7m^M[27mCompressing objects: 100% (5/5)[7m^M[27mCo[m :[K[K[32m[m[32mmpressing objects: 100% (5/5), done.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mWriting objects:  14% (1/7)[7m^M[27mWriting objects:  28% (2/7)[7m^M[27mWriting objects:  42% (3/7)[7m^M[27mWriting objects:  57% (4/7)[7m^M[27mWriting objects:  71% (5/7)[7m^M[27mWriting objects:  85% [m :[K[K[32m[m[32m(6/7)[7m^M[27mWriting objects: 100% (7/7)[7m^M[27mWriting objects: 100% (7/7), 8.03 KiB | 8.03 MiB/s, done.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mTotal 7 (delta 0), reused 0 (delta 0), pack-reused 0[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mTo github.com:keshav-garg-tiger/TAMLEP-Assignment-1.git[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   a8d1bdf..c6a257e  main -> main[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git status -s[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27m [31mM[m assignment-1-1/my_git_session[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ cat .gi[7m^G[27mt[7m^G[27m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m.git/       .gitignore[m[41m  [7m^M[27m[m[m
+:[K[K[32m+[m[32meshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ cat .gitignore[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[7m^M[27m# Byte-compiled / optimized / DLL files[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m__pycache__/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*.py[cod][m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*$py.class[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m# C extensions[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*.so[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m# Distribution / packaging[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m.Python[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mbuild/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mdevelop-eggs/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mdist/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mdownloads/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32meggs/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m.eggs/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mlib/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mlib64/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mparts/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32msdist/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mvar/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mwheels/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mshare/python-wheels/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*.egg-info/[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m.installed.cfg[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*.egg[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mMANIFEST[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m# PyInstaller[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m#  Usually these files are written by a python script from a template[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m#  before PyInstaller builds the exe, so as to inject date/other infos into it.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*.manifest[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m*.spec[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m# Installer logs[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mpip-log.txt[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mpip-delete-this-directory.txt[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m# Unit test / coverage reports[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mhtmlcov/[m[41m[7m^M[27m[m[m
+:[K[K[?1l>[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git log
+[?2004l[?1h=[33mcommit c6a257eb78bd81f21b49ff9cbdd96ac65d83d079[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Keshav Garg <keshav.garg@tigeranalytics.com>[m
+Date:   Fri Sep 1 22:43:55 2023 +0530[m
+[m
+    first commit[m
+[m
+[33mcommit a8d1bdf55692508f7f19254982b2985463563f43[m[m
+Author: keshav-garg-tiger <143584211+keshav-garg-tiger@users.noreply.github.com>[m
+Date:   Fri Sep 1 13:02:52 2023 +0530[m
+[m
+    Initial commit[m
+[K[?1l>[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git log -p -2
+[?2004l[?1h=[33mcommit c6a257eb78bd81f21b49ff9cbdd96ac65d83d079[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Keshav Garg <keshav.garg@tigeranalytics.com>[m
+Date:   Fri Sep 1 22:43:55 2023 +0530[m
+[m
+    first commit[m
+[m
+[1mdiff --git a/assignment-1-1/draft_renamed2.txt b/assignment-1-1/draft_renamed2.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..0678d17[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/assignment-1-1/draft_renamed2.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32msample test[m[m
+[1mdiff --git a/assignment-1-1/my_git_session b/assignment-1-1/my_git_session[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..42e9f3c[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/assignment-1-1/my_git_session[m[m
+[36m@@ -0,0 +1,285 @@[m[m
+[32m+[m[32mScript started on 2023-09-01 22:34:34+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="168" LINES="43"][m[m
+[32m+[m[32meshavgarg@TIGER01532: ~[7m^G[27m[01;32mkeshavgarg@TIGER01532[00m:[01;34m~[00m$ git[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27musage: git [--version] [--help] [-C <path>] [-c <name>=<value>][m[41m[7m^M[27m[m[m
+[32m+[m[32m           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][m[41m[7m^M[27m[m[m
+[32m+[m[32m           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare][m[41m[7m^M[27m[m[m
+[32m+[m[32m           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][m[41m[7m^M[27m[m[m
+[32m+[m[32m           [--super-prefix=<path>] [--config-env=<name>=<envvar>][m[41m[7m^M[27m[m[m
+[32m+[m[32m           <command> [<args>][m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mThese are common Git commands used in various situations:[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mstart a working area (see also: git help tutorial)[m[41m[7m^M[27m[m[m
+[32m+[m[32m   clone     Clone a repository into a new directory[m[41m[7m^M[27m[m[m
+[32m+[m[32m   init      Create an empty Git repository or reinitialize an existing one[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mwork on the current change (see also: git help everyday)[m[41m[7m^M[27m[m[m
+[32m+[m[32m   add       Add file contents to the index[m[41m[7m^M[27m[m[m
+[32m+[m[32m   mv        Move or rename a file, a directory, or a symlink[m[41m[7m^M[27m[m[m
+[32m+[m[32m   restore   Restore working tree files[m[41m[7m^M[27m[m[m
+[32m+[m[32m   rm        Remove files from the working tree and from the index[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mexamine the history and state (see also: git help revisions)[m[41m[7m^M[27m[m[m
+[32m+[m[32m   bisect    Use binary search to find the commit that introduced a bug[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   diff      Show changes between commits, commit and working tree, etc[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   grep      Print lines matching a pattern[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   log       Show commit logs[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   show      Show various types of objects[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   status    Show the working tree status[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mgrow, mark and tweak your common history[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   branch    List, create, or delete branches[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   commit    Record changes to the repository[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   merge     Join two or more development histories together[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   rebase    Reapply commits on top of another base tip[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   reset     Reset current HEAD to the specified state[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   switch    Switch branches[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m   tag       Create, list, delete or verify a tag object signed with GPG[m[41m[7m^M[27m[m[m
+:[K[K[?1l>[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git log --stat
+[?2004l[?1h=[33mcommit c6a257eb78bd81f21b49ff9cbdd96ac65d83d079[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Keshav Garg <keshav.garg@tigeranalytics.com>[m
+Date:   Fri Sep 1 22:43:55 2023 +0530[m
+[m
+    first commit[m
+[m
+ assignment-1-1/draft_renamed2.txt                    |   1 [32m+[m[m
+ assignment-1-1/my_git_session                        | 285 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ assignment-1-1/my_unix_session                       | 202 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ assignment-1-1/test_mkdir_command/draft_renamed2.txt |   1 [32m+[m[m
+ 4 files changed, 489 insertions(+)[m
+[m
+[33mcommit a8d1bdf55692508f7f19254982b2985463563f43[m[m
+Author: keshav-garg-tiger <143584211+keshav-garg-tiger@users.noreply.github.com>[m
+Date:   Fri Sep 1 13:02:52 2023 +0530[m
+[m
+    Initial commit[m
+[m
+ .gitignore | 160 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ README.md  |   1 [32m+[m[m
+ 2 files changed, 161 insertions(+)[m
+[K[?1l>[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git log --pretty=oneline
+[?2004l[?1h=[33mc6a257eb78bd81f21b49ff9cbdd96ac65d83d079[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m first commit[m
+[33ma8d1bdf55692508f7f19254982b2985463563f43[m Initial commit[m
+[K[?1l>[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git log --since=2.weeks[1P.weeks5.weeks
+[?2004l[?1h=[33mcommit c6a257eb78bd81f21b49ff9cbdd96ac65d83d079[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Keshav Garg <keshav.garg@tigeranalytics.com>[m
+Date:   Fri Sep 1 22:43:55 2023 +0530[m
+[m
+    first commit[m
+[m
+[33mcommit a8d1bdf55692508f7f19254982b2985463563f43[m[m
+Author: keshav-garg-tiger <143584211+keshav-garg-tiger@users.noreply.github.com>[m
+Date:   Fri Sep 1 13:02:52 2023 +0530[m
+[m
+    Initial commit[m
+[K[?1l>[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git remote -v
+[?2004lorigin	git@github.com:keshav-garg-tiger/TAMLEP-Assignment-1.git (fetch)
+origin	git@github.com:keshav-garg-tiger/TAMLEP-Assignment-1.git (push)
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git btrna[K[K[K[Kranch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git vch[K[K[Kchekck[K[K[Kckout -b "test_brn[K[K[K[K[K[K[K[K[K[K[K[K-b "branch_test"
+[?2004lSwitched to a new branch 'branch_test'
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git status
+[?2004lOn branch branch_test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   assignment-1-1/my_git_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git checkout mi[Kain [K
+[?2004lM	assignment-1-1/my_git_session
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git merge branch_test [K
+[?2004lAlready up to date.
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ git merge branch_test[4Pcheckout main[7Pstatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   assignment-1-1/my_git_session[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;keshavgarg@TIGER01532: ~/TAMLEP-Assignment-1[01;32mkeshavgarg@TIGER01532[00m:[01;34m~/TAMLEP-Assignment-1[00m$ exit
+[?2004lexit
+
+Script done on 2023-09-01 23:38:24+05:30 [COMMAND_EXIT_CODE="0"]
